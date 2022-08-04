@@ -1,0 +1,2 @@
+#!/usr/bin/env zsh
+cat input.txt | python3 solution.py > output.txt && clear

@@ -1,0 +1,2 @@
+#!/usr/bin/env zsh
+g++ solution.cpp -o ./solution && cat input.txt | ./solution > output.txt && rm ./solution && clear
