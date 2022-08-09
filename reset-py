@@ -1,3 +1,6 @@
 #!/usr/bin/env zsh
 
-echo "def solve() -> None:\n\tpass\n\nif __name__ == \"__main__\":\n\n\tt = 1\n\t# t = int(input())\n\tfor _ in range(t):\n\t\tsolve()" > solution.py
+echo -n "def solve() -> None:\n\tpass\n\nif __name__ == \"__main__\":\n\n\tt = 1\n\t# t = int(input())\n\tfor _ in range(t):\n\t\tsolve()\n" > solution.py
+
+echo -n > input.txt
+echo -n > output.txt

@@ -1,9 +1,9 @@
 def solve() -> None:
-    pass
+	pass
 
 if __name__ == "__main__":
 
-    t = 1
-    # t = int(input())
-    for _ in range(t):
-        solve()
+	t = 1
+	# t = int(input())
+	for _ in range(t):
+		solve()
